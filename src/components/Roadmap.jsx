@@ -1,5 +1,6 @@
 import { check2, grid, loading1 } from "../assets";
 import { roadmap } from "../constants";
+import Button from "./Button";
 import Heading from "./Heading";
 import { Section } from "./Section";
 import Tagline from "./Tagline";
@@ -52,6 +53,9 @@ const Roadmap = () => {
               </div>
             );
           })}
+        </div>
+        <div className="flex w-full justify-center mt-20">
+          <Button >our roadmap</Button>
         </div>
       </div>
     </Section>
